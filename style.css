@@ -10,7 +10,6 @@ html{
 
 .nav-link {
     padding: 0.25rem 1rem;
-    
     border: solid;
     border-color: #072866;
     background-color: #e1ecff;
@@ -23,6 +22,13 @@ html{
     border: solid;
     border-color: #072866;
     background-color: #e1ecff;
+}
+
+.main-image
+{
+    list-style: none;
+    padding-left: 53px;
+    padding-bottom: 4px;
 }
 
 header{
