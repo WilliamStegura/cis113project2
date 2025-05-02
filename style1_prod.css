@@ -1,0 +1,102 @@
+html{
+    background-color: #f3f7ff;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 4px;
+}
+
+.nav-link {
+    padding: 0.25rem 1rem;
+    border: solid;
+    border-radius: 5em;
+    border-color: #072866;
+    background-color: #e1ecff;
+}
+
+.nav-image
+{
+    padding: 1.27rem 0.0rem;
+    padding-bottom: 0px;
+    border: solid;
+    border-radius: 5em;
+    border-color: #072866;
+    background-color: #e1ecff;
+}
+
+.main-image
+{
+    list-style: none;
+    padding-left: 53px;
+    padding-bottom: 4px;
+}
+
+header{
+    background-image: url(CIS-113\ banner\ image.png);
+    color: white;
+    padding: 0px 5px;
+}
+
+nav{
+    font-size: large;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #0026ff;
+}
+
+nav a:visited
+{
+    color: #0026ff;
+}
+
+section a {
+    border: solid;
+    border-color: black;
+    border-width: .1em;
+    border-radius: 5em;
+    padding: 6px;
+    background-color: white;
+}
+
+main {
+    background-color: #ffffe3;
+    column-count: 4;
+}
+
+section {
+    background-color: #ffffee;
+    border-radius: 30px;
+    padding: 1em;
+    margin: 1.5em;
+}
+
+footer {
+    background-color: #072866;
+    color: #FFFFFF;
+    padding: 01px 14px;
+}
+
+.footer-link:link {
+    border: solid;
+    border-color: black;
+    border-width: .1em;
+    border-radius: 5em;
+    padding: 6px;
+    color: black;
+    background-color: #d9ffff;
+}
+
+.footer-link:visited {
+    border: solid;
+    border-color: black;
+    border-width: .1em;
+    border-radius: 5em;
+    padding: 6px;
+    color: black;
+    background-color: #d9daff;
+}
