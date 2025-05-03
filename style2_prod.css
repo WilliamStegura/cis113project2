@@ -59,13 +59,15 @@ section a {
     border-color: black;
     border-width: .1em;
     border-radius: 5em;
-    padding: 6px;
+    padding: 2px;
     background-color: white;
 }
 
 main {
     background-color: #ffffe3;
-    column-count: 4;
+    column-count: 2;
+    flex-flow: column-reverse wrap;
+    flex-direction: row;
 }
 
 section {
@@ -87,7 +89,7 @@ footer {
     border-color: black;
     border-width: .1em;
     border-radius: 5em;
-    padding: 6px;
+    padding: 2px;
     color: black;
     background-color: #d9ffff;
 }
@@ -97,7 +99,7 @@ footer {
     border-color: black;
     border-width: .1em;
     border-radius: 5em;
-    padding: 6px;
+    padding: 2px;
     color: black;
     background-color: #d9daff;
 }
