@@ -67,8 +67,7 @@ section a {
 main {
     background-color: #ffffe3;
     column-count: 2;
-    flex-flow: column-reverse wrap;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 
 section {
@@ -104,3 +103,4 @@ footer {
     color: black;
     background-color: #d9daff;
 }
+

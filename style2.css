@@ -11,6 +11,7 @@ html{
 .nav-link {
     padding: 0.25rem 1rem;
     border: solid;
+    border-radius: 5em;
     border-color: #072866;
     background-color: #e1ecff;
 }
@@ -20,6 +21,7 @@ html{
     padding: 1.27rem 0.0rem;
     padding-bottom: 0px;
     border: solid;
+    border-radius: 5em;
     border-color: #072866;
     background-color: #e1ecff;
 }
@@ -39,6 +41,7 @@ header{
 
 nav{
     font-size: large;
+    width: 100%;
 }
 
 nav a
@@ -67,12 +70,25 @@ footer {
     background-color: #072866;
     color: #FFFFFF;
     padding: 01px 14px;
+    column-count: 2;
 }
 
-.footer-link:link{
-    color: #d9ffff;
+.footer-link:link {
+    border: solid;
+    border-color: black;
+    border-width: .1em;
+    border-radius: 5em;
+    padding: 2px;
+    color: black;
+    background-color: #d9ffff;
 }
 
-.footer-link:visited{
-    color: #d9daff;
+.footer-link:visited {
+    border: solid;
+    border-color: black;
+    border-width: .1em;
+    border-radius: 5em;
+    padding: 2px;
+    color: black;
+    background-color: #d9daff;
 }

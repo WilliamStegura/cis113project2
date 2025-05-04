@@ -41,7 +41,6 @@ header{
 
 nav{
     font-size: large;
-    width: 100%;
 }
 
 nav a
@@ -55,20 +54,8 @@ nav a:visited
     color: #0026ff;
 }
 
-section a {
-    border: solid;
-    border-color: black;
-    border-width: .1em;
-    border-radius: 5em;
-    padding: 2px;
-    background-color: white;
-}
-
 main {
     background-color: #ffffe3;
-    column-count: 2;
-    flex-flow: column-reverse wrap;
-    flex-direction: row;
 }
 
 section {
@@ -82,7 +69,6 @@ footer {
     background-color: #072866;
     color: #FFFFFF;
     padding: 01px 14px;
-    column-count: 2;
 }
 
 .footer-link:link {
