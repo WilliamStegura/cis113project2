@@ -54,15 +54,6 @@ nav a:visited
     color: #0026ff;
 }
 
-section a {
-    border: solid;
-    border-color: black;
-    border-width: .1em;
-    border-radius: 5em;
-    padding: 2px;
-    background-color: white;
-}
-
 main {
     background-color: #ffffe3;
     column-count: 2;
@@ -90,21 +81,11 @@ footer {
 }
 
 .footer-link:link {
-    border: solid;
-    border-color: black;
-    border-width: .1em;
-    border-radius: 5em;
     padding: 2px;
-    color: black;
-    background-color: #d9ffff;
+    color: #d9ffff;
 }
 
 .footer-link:visited {
-    border: solid;
-    border-color: black;
-    border-width: .1em;
-    border-radius: 5em;
     padding: 2px;
-    color: black;
-    background-color: #d9daff;
+    color: #d9daff;
 }
