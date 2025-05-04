@@ -75,6 +75,10 @@ section {
     margin: 1.5em;
 }
 
+section image {
+    object-fit: contain;
+}
+
 footer {
     background-color: #072866;
     color: #FFFFFF;
