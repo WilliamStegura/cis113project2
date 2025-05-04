@@ -68,7 +68,7 @@ main {
     background-color: #ffffe3;
     column-count: 2;
     flex-flow: column-reverse wrap;
-    flex-direction: row;
+    flex-direction: row wrap;
 }
 
 section {

@@ -66,13 +66,20 @@ section a {
 main {
     background-color: #ffffe3;
     column-count: 4;
+    height: 25em
 }
 
 section {
     background-color: #ffffee;
     border-radius: 30px;
-    padding: 1em;
+    padding: 0em;
     margin: 1.5em;
+    margin-bottom: 2em;
+    height: 10em;
+}
+
+section img {
+    object-position: 50% 50%;
 }
 
 footer {
