@@ -61,7 +61,18 @@ section a {
     border-width: .1em;
     border-radius: 5em;
     padding: 2px;
-    background-color: white;
+    color: white;
+    background-color: #0026ff;
+}
+
+section a:visited {
+    border: solid;
+    border-color: black;
+    border-width: .1em;
+    border-radius: 5em;
+    padding: 2px;
+    color: white;
+    background-color: #51019c;
 }
 
 main {
@@ -76,7 +87,7 @@ section {
     margin: 1.5em;
 }
 
-section image {
+section img {
     object-fit: contain;
 }
 
